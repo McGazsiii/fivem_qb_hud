@@ -1,15 +1,31 @@
-# Fivem Hud
-Fivem için geliştirdiğim hud.
+# DLRMS HUD for FiveM (QBCore Version)
 
-### Özellikleri
-* Alert Sistemi (Can ve Zırh:50 ve altında ise, Açlık ve Susuzluk:25 ve altında ise kırmızı renkte yanıp söner.)
-* Oyuncuları rahatsız etmemek için Zırh 0 olduğunda alert sistemi durur!
-* Aracın içinde iken Stamina göstergesi kaybolur, Açlık ve Susuzluk: Can ve Zırh göstergesinin üstüne gider.
-* Stamina ikonu: Suda yüzerken(Yüzme ikonu), Suyun altında iken(Ciğer ikonu) olarak değişir.
+A rewritten version of the DLRMS HUD for FiveM, converted from the ESX framework to **QBCore** with additional features and improvements.
 
-### Gerekli Scriptler
-- [esx_status](https://github.com/delarmuss/esx_status)
-- [esx_basicneeds](https://github.com/delarmuss/esx_basicneeds)
+---
 
-### Video
-https://youtu.be/BV8fXSyola8
+## 🌟 Features
+
+* **Smart Alert System:**
+  * Flashes red when **Health** or **Armor** falls to **50% or below**.
+  * Flashes red when **Hunger** or **Thirst** falls to **25% or below**.
+  * To keep the UI clean and avoid annoying players, the alert system turns off when Armor drops to **0**.
+
+* **Dynamic Vehicle Layout:**
+  * When entering a vehicle, the **Stamina** indicator automatically hides.
+  * The **Hunger** and **Thirst** indicators smoothly reposition above the Health and Armor bars.
+
+* **Dynamic Stamina Icons:**
+  * The stamina icon adapts dynamically depending on player context:
+    * **Swimming on surface:** Displays a swimming icon.
+    * **Underwater:** Displays a lung/oxygen icon.
+
+---
+
+## 📦 Dependencies & Requirements
+
+* [qb-core](https://github.com/qbcore-framework/qb-core)
+
+*(If you are still using ESX status bridges, adjust dependencies accordingly)*
+
+---
