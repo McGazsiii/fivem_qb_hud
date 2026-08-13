@@ -21,6 +21,9 @@ A rewritten version of the DLRMS HUD for FiveM, converted from the ESX framework
     * **Underwater:** Displays a lung/oxygen icon.
 
 ---
+## Added Features after conversion
+
+* **Commands to add, remove and set a player's special currency**
 
 ## 📦 Dependencies & Requirements
 
